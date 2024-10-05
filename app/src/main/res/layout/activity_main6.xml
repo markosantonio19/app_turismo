@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="reservar  ==>"
+        android:textAllCaps="false"
+        android:textColor="#EFD12F24"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="476dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="Estadia"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="256dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="Hotel greem paradise"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="672dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="volver"
+        android:textAllCaps="false"
+        android:textColor="#9DE2F6"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="428dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="leer mas"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="181dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/greem_paradise"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="349dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/jojo"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="337dp"
+        android:layout_height="119dp"
+        android:text="Lugar céntrico, habitaciones cómodas!!!
+Ambientes limpios, seguro, buena atención, buen servicio de desayuno... en mi punto, el mejor que he probado de todos mis viajes a la fecha. No cuenta con ascensor, pero la habitación super cómoda. Dispone de un comedor amplio y al aire libre con Tv en la sala. Lugar moderno y cuenta con cochera....."
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S/ 1500"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

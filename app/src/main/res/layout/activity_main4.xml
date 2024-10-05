@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="Inicio"
+        android:textAllCaps="false"
+        android:textColor="#9DE2F6"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="volver"
+        android:textAllCaps="false"
+        android:textColor="#9DE2F6"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="181dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/tacacho_con_cecina"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="476dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="Recomendados"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="Popular"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="49dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Explora"
+
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="186dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif"
+        android:text="Tingo Maria"
+
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="363dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Buscar comidas..."
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#A0A0A0"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBox"
+        app:layout_constraintVertical_bias="0.044"
+        app:menu="@menu/bottom_navigation_menu">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background2"
+            android:gravity="center"
+            android:text="Hoteles"
+            android:textAllCaps="false"
+            android:textColor="#DCDCDC"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background2"
+            android:gravity="center"
+            android:text="comida"
+            android:textAllCaps="false"
+            android:textColor="#00E5FF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background2"
+            android:gravity="center"
+            android:text="Aventura"
+            android:textAllCaps="false"
+            android:textColor="#dcdcdc"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="420dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background2"
+            android:gravity="center"
+            android:text="Aventura"
+            android:textAllCaps="false"
+            android:textColor="#dcdcdc"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="508dp"
+            android:background="@drawable/button_background3"
+            android:gravity="center"
+            android:text="Lugares"
+            android:textAllCaps="false"
+            android:textColor="#DCDCDC"
+            android:textSize="12sp" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="181dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cueva"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="175dp"
+        android:layout_height="116dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="4dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/patarascha"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="175dp"
+        android:layout_height="116dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arroz"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="181dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/juanes" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tacacho con cecina"
+        android:textColor="#100F0F"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chaufa amozonico"
+        android:textColor="#100F0F"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="patarashca"
+        android:textColor="#100F0F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

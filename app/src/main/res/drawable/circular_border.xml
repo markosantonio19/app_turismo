@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define el color del borde con semitransparencia -->
+    <stroke
+        android:width="4dp"
+        android:color="#80CAC7C7" /> <!-- Rojo con 50% de transparencia -->
+    <!-- Define el radio de esquina para hacer el borde circular -->
+    <corners
+        android:radius="50dp" />
+    <!-- Define el color de fondo (puedes cambiarlo si quieres) -->
+    <solid android:color="@android:color/transparent" />
+</shape>

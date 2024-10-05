@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="reservar  ==>"
+        android:textAllCaps="false"
+        android:textColor="#EFD12F24"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="476dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="Estadia"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="256dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="la cuevas de la lechusas"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="3 days"
+        android:textAllCaps="false"
+        android:textColor="#9DE2F6"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="82dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="5 days"
+        android:textAllCaps="false"
+        android:textColor="#9DE2F6"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100"
+        android:layout_height="42dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="672dp"
+        android:background="@drawable/button_background3"
+        android:gravity="center"
+        android:text="volver"
+        android:textAllCaps="false"
+        android:textColor="#9DE2F6"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="396dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="leer mas"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu">
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="420dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background2"
+            android:gravity="center"
+            android:text="Aventura"
+            android:textAllCaps="false"
+            android:textColor="#dcdcdc"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="181dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/circular_border"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cueva1"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="342dp"
+        android:layout_height="102dp"
+        android:text="La Cueva de las Lechuzas se encuentra ubicada a 673 m s. n. m. en el distrito de Mariano Damaso Beraun, provincia de Leoncio Prado, Huánuco, Perú.​​La cueva es habitada por guácharos y murciélagos.​​ La entrada mide 20 metros de altura y 25 metros de ancho ...."
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
